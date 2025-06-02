@@ -22,9 +22,9 @@ function App() {
     <div id="main">
       <h1>Menu</h1>
       <div className="button-container">
-        <button id="filter-btn-1" onClick={() => handleFilter('Breakfast')}>Breakfast</button>
-        <button id="filter-btn-2" onClick={() => handleFilter('Lunch')}>Lunch</button>
-        <button id="filter-btn-3" onClick={() => handleFilter('Shakes')}>Shakes</button>
+        <button id="filter-btn-1">Breakfast</button>
+  <button id="filter-btn-2">Lunch</button>
+  <button id="filter-btn-3">Shakes</button>
       </div>
       <Menu items={items} />
     </div>
